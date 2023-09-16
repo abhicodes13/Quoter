@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+
 }
 
 body{
@@ -20,4 +23,23 @@ body{
     text-align: center;
     box-shadow: 0 10px 20px 0px rgba(0,0, 0, 0.15);
   
+}
+
+.quote-box h3{
+    font-size:32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.quote-box h3::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
