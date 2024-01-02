@@ -8,7 +8,6 @@ const api_url = "https://api.quotable.io/random";
     quote.innerHTML = data.content;
     author.innerHTML = data.author;
 }
-
 quotes(api_url);
 
 function tweet(){
