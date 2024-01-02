@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color:paleturquoise;
+    background-color: paleturquoise;
 }
 .quote-box{
     background-color: #fff;
@@ -25,11 +25,7 @@ body{
 }
 
 
-.quote-box h3{
-    font-size:32px;
-    margin-bottom: 40px;
-    position: relative;
-}
+
 
 .quote-box h3::after{
     content: '';
